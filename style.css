@@ -32,6 +32,7 @@ nav {
     justify-content: center;
     flex-direction: row;
     padding: 32px;
+    gap: 10px;
 
     .col-1 {
         display: flex;
@@ -55,7 +56,7 @@ nav {
 
         .img-cat1 {
             position: absolute;
-            bottom: 100px;
+            bottom: -100px;
             right: 0;
         }
 
@@ -77,5 +78,24 @@ nav {
         font-size: 56px;
         color: #2E5070;
         font-weight: 500;
+    }
+}
+
+.service {
+    background-color: #C6EAE3;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        font-size: 56px;
+        color: #2E5070;
+        font-weight: 500;
+    }
+
+    .services-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
     }
 }
